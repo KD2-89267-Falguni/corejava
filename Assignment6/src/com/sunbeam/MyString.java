@@ -2,8 +2,7 @@ package com.sunbeam;
 
 public class MyString {
 private String message;
-private int str;
-private int messagelength; //int
+private int messagelength; 
 
 public MyString() {}
 
@@ -27,7 +26,7 @@ public void setMessage(String string)throws ExceptionLineTooLong {
 }
 
 @Override
-public java.lang.String toString() {
+public String toString() {
 	return "String[message =" +message+"]";
 }
 
